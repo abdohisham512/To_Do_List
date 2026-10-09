@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(29, 29, 90);
+  color: #fff;
+}
+
+h1 {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  background-image: linear-gradient(to top, rgb(29, 29, 90), rgb(24, 24, 24));
+}
+
+.task {
+  margin-top: 30px;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.4px);
+  -webkit-backdrop-filter: blur(4.4px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: #fff 1px solid;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.double {
+  padding-right: 10px;
+}
+
+.icon-bin2 {
+  padding-right: 5px;
+  opacity: 0.3;
+}
+.icon-bin2:hover {
+  font-size: 22px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.icon-star-full {
+  padding-left: 10px;
+  opacity: 0.3;
+}
+
+.icon-star-full:hover {
+  font-size: 22px;
+  transition: 0.2s;
+}
+.icon-star-full2 {
+  font-size: 22px;
+  color: gold;
+  opacity: 1;
+}
+
+.icon-angry2 {
+  color: gold;
+}
+.icon-angry2:hover {
+  font-size: 22px;
+  transition: 0.2s;
+}
+
+h2 {
+  margin-top: 200px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.form input {
+  padding: 5px 40px;
+  width: 30vw;
+  font-size: 20px;
+
+}
+.total{
+ margin-bottom: 110px;
+}
+
+button {
+  all: unset;
+}
+
+.icon-upload3 {
+  font-size: 35px;
+  position: relative;
+  top: 4px;
+  left: 7px;
+  cursor: pointer;
+}
+.icon-upload3:hover {
+  font-size: 38px;
+  top: 0;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  color: black;
+}
+
+.icon-heart {
+  color: red;
+}
+
+.text {
+  font-size: larger;
+  font-style: oblique;
+  font-weight: 600;
+}
+.text:hover {
+  font-size:x-large;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+   font-weight: 700;
+}
+
+.line_text {
+  text-decoration: line-through;
+  text-decoration-style: wavy;
+}
